@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <ScrollView 
       style={{ flex: 1 }}
-      contentContainerStyle={{ paddingTop: 48, paddingHorizontal: 16, paddingBottom: 24 }}
+      contentContainerStyle={{ paddingTop: 48, paddingHorizontal: 16, paddingBottom: 100 }}
       refreshControl={
         <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
       }

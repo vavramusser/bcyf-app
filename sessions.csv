@@ -1,44 +1,38 @@
-session_id,department,day,location,session_start_time,session_end_time,session_name,session_description
-pocketpets,Pocket Pets,Friday,Building #34,9:00 AM,,Pocket Pets Judging,
-cats,Cats,Monday,Building #34,3:00 PM,,Cat Judging,
-dogs6,Dogs,Thursday,Building #34,9:00 AM,2:00 PM,Scent Work,
-dogs7,Dogs,Thursday,Building #34,2:00 PM,,Traditional Agility,
-dogs1,Dogs,Tuesday,Building #34,9:00 AM,2:15 PM,Inclusive Rally,
-dogs2,Dogs,Tuesday,Building #34,2:15 PM,4:00 PM,Costume,
-dogs3,Dogs,Tuesday,Building #34,4:00 PM,,Non-Traditional Obedience and Agility,
-dogs4,Dogs,Wednesday,Building #34,10:00 AM,2:00 PM,Junior Showmanship,
-dogs5,Dogs,Wednesday,Building #34,2:00 PM,,Traditional Obedience,
-equine11,Equine,Friday,Harry Kolberg Memorial Jump Ring,8:00 AM,,Drassage,
-equine6,Equine,Wednesday,Harry Kolberg Memorial Jump Ring,8:00 AM,,Hunter/Jumper Classes,
-equine9,Equine,Friday,Jack Dean Memorial Ring,8:00 AM,,Senior Exhibitors Trail,
-equine12,Equine,Satuday,Jack Dean Memorial Ring,8:00 AM,,Senior Exhibitors Gymkhana,
-equine14,Equine,Satuday,Jack Dean Memorial Ring,4:00 PM,,Proud Equestrians Program (PEP),
-equine7,Equine,Thursday,Jack Dean Memorial Ring,8:00 AM,,Senior Exhibitors Western Classes,
-equine2,Equine,Tuesday,Jack Dean Memorial Ring,8:00 AM,,Senior Exhibitors Fitting and Showmanship,
-equine4,Equine,Wednesday,Jack Dean Memorial Ring,8:00 AM,,Senior Exhibitrs English Flat Classes,
-equine10,Equine,Friday,Julie Hein Memorial Ring,8:00 AM,,Junior Exhibitors Trail,
-equine1,Equine,Monday,Julie Hein Memorial Ring,8:00 AM,,All Halter Classes followed by Driving Classes,
-equine13,Equine,Satuday,Julie Hein Memorial Ring,8:00 AM,,Junior Exhibitors Gymkhana,
-equine8,Equine,Thursday,Julie Hein Memorial Ring,8:00 AM,,Junior Exhibitors Western Classes,
-equine3,Equine,Tuesday,Julie Hein Memorial Ring,8:00 AM,,Junior Exhibitors Fitting and Showmanship,
-equine5,Equine,Wednesday,Julie Hein Memorial Ring,8:00 AM,,Junior Exhibitrs English Flat Classes,
-poultry1,Poultry,Tuesday,Poultry Shelter,9:00 AM,,Poultry Judging (day 1),"Showmanship, Market Classes, and Eggs"
-poultry2,Poultry,Wednesday,Poultry Shelter,9:00 AM,,Poultry Judging (day 2),Show Classes
-auction_sheep,Sheep,Friday,Show Arena,9:00 AM,10:00 AM,Sheep Auction,
-auction_goats,Goats,Friday,Show Arena,10:00 AM,12:00 PM,Goat Auction,"Quart of Milk from Grand Champion Dairy Goat, Market Goats"
-auction_beef,Beef,Friday,Show Arena,12:00 PM,2:00 PM,Beef Auction,
-auction_dairy,Dairy,Friday,Show Arena,12:00 PM,12:00 PM,Dairy Auction,Grand Champion Gallon of Milk
-auction_swine,Swine,Friday,Show Arena,2:00 PM,,Swine Auction,
-goats1,Goats,Monday,Show Arena,8:30 AM,1:00 PM,Goat Judging (day 1),"Showmanship, Special Needs, Myotonic, Boer Goat, and Market Classes"
-llamas_alpacas1,Llamas and Alpacas,Monday,Show Arena,1:00 PM,4:00 PM,Llamas and Alpacas Judging (day 1),"Showmanship, Performance Classes, Special Needs"
-sheep,Sheep,Monday,Show Arena,4:00 PM,,Sheep Judging,
-swine,Swine,Thursday,Show Arena,8:30 AM,,Swine Judging,"Showmanship, Market Casses (registered followed by gilt then barrow)"
-beef,Beef,Tuesday,Show Arena,8:30 AM,4:30 PM,Beef Judging,"Costume, Jackpot Obstacle, Leaping, Limbo, Paper Chain"
-goats2,Goats,Tuesday,Show Arena,4:30 PM,,Goat Judging (day 2),"Dairy Goats, Obstacle Classes, and Costume Classes"
-dairy,Dairy,Wednesday,Show Arena,8:30 AM,12:30 PM,Dairy Judging,
-goats3,Goats,Wednesday,Show Arena,12:30 PM,1:00 PM,Goat Judging (day 3),"Other Breeds and Pygmys, Pet Wethers"
-llamas_alpacas2,Llamas and Alpacas,Wednesday,Show Arena,1:00 PM,,Llamas and Alpacas Judging (day 2),"Costume, Jackpot Leaping, Limbo, Paper Chain"
-rabbits1,Rabbits,Monday,Tent Between Buildings #10 and #11,9:00 AM,,Rabbit Judging (day 1),"Showmanship, Single Market, Doe and Litter, Crossbreeds and Pets, Pen of Two Market"
-auction_smallanimal,"Rabbits, Poultry",Thursday,Tent Between Buildings #10 and #11,9:30 AM,,Small Animal Auction,"Market Rabbits, Champion Eggs, Market Turkeys, Market Chickens"
-rabbits2,Rabbits,Tuesday,Tent Between Buildings #10 and #11,9:00 AM,,Rabbit Judging (day 2),Show Judging
-rabbits3,Rabbits,Wednesday,Tent Between Buildings #10 and #11,9:00 AM,,Rabbit Judging (day 3),Rabbit Costume
+session_id,department,event_type,dow,day,location,session_start_time,session_end_time,session_end_time_estimated,session_name,session_description
+cats,Cats,Exhibitor Classes,1,Monday,Building #34,3:00 PM,,6:00 PM,Cat Judging,
+dogs1,Dogs,Exhibitor Classes,2,Tuesday,Building #34,9:00 AM,,2:15 PM,Inclusive Rally,
+dogs2,Dogs,Exhibitor Classes,2,Tuesday,Building #34,2:15 PM,,4:00 PM,Costume,
+dogs3,Dogs,Exhibitor Classes,2,Tuesday,Building #34,4:00 PM,,6:00 PM,Non-Traditional Obedience and Agility,
+dogs4,Dogs,Exhibitor Classes,3,Wednesday,Building #34,10:00 AM,,2:00 PM,Junior Showmanship,
+dogs5,Dogs,Exhibitor Classes,3,Wednesday,Building #34,2:00 PM,,6:00 PM,Traditional Obedience,
+dogs6,Dogs,Exhibitor Classes,4,Thursday,Building #34,9:00 AM,,2:00 PM,Scent Work,
+dogs7,Dogs,Exhibitor Classes,4,Thursday,Building #34,2:00 PM,,6:00 PM,Traditional Agility,
+pocketpets,Pocket Pets,Exhibitor Classes,5,Friday,Building #34,9:00 AM,,10:30 AM,Pocket Pets Judging,
+equine6,Equine,Exhibitor Classes,3,Wednesday,Harry Kolberg Memorial Jump Ring,8:00 AM,,,Hunter/Jumper Classes,
+equine11,Equine,Exhibitor Classes,5,Friday,Harry Kolberg Memorial Jump Ring,8:00 AM,,,Drassage,
+equine2,Equine,Exhibitor Classes,2,Tuesday,Jack Dean Memorial Ring,8:00 AM,,,Senior Exhibitors Fitting and Showmanship,
+equine4,Equine,Exhibitor Classes,3,Wednesday,Jack Dean Memorial Ring,8:00 AM,,,Senior Exhibitrs English Flat Classes,
+equine7,Equine,Exhibitor Classes,4,Thursday,Jack Dean Memorial Ring,8:00 AM,,,Senior Exhibitors Western Classes,
+equine9,Equine,Exhibitor Classes,5,Friday,Jack Dean Memorial Ring,8:00 AM,,,Senior Exhibitors Trail,
+equine12,Equine,Exhibitor Classes,6,Satuday,Jack Dean Memorial Ring,8:00 AM,,,Senior Exhibitors Gymkhana,
+equine14,Equine,Exhibitor Classes,6,Satuday,Jack Dean Memorial Ring,4:00 PM,,,Proud Equestrians Program (PEP),
+equine1,Equine,Exhibitor Classes,1,Monday,Julie Hein Memorial Ring,8:00 AM,,,All Halter Classes followed by Driving Classes,
+equine3,Equine,Exhibitor Classes,2,Tuesday,Julie Hein Memorial Ring,8:00 AM,,,Junior Exhibitors Fitting and Showmanship,
+equine5,Equine,Exhibitor Classes,3,Wednesday,Julie Hein Memorial Ring,8:00 AM,,,Junior Exhibitrs English Flat Classes,
+equine8,Equine,Exhibitor Classes,4,Thursday,Julie Hein Memorial Ring,8:00 AM,,,Junior Exhibitors Western Classes,
+equine10,Equine,Exhibitor Classes,5,Friday,Julie Hein Memorial Ring,8:00 AM,,,Junior Exhibitors Trail,
+equine13,Equine,Exhibitor Classes,6,Satuday,Julie Hein Memorial Ring,8:00 AM,,,Junior Exhibitors Gymkhana,
+poultry1,Poultry,Exhibitor Classes,2,Tuesday,Poultry Shelter,9:00 AM,,,Poultry Judging (day 1),"Showmanship, Market Classes, and Eggs"
+poultry2,Poultry,Exhibitor Classes,3,Wednesday,Poultry Shelter,9:00 AM,,,Poultry Judging (day 2),Show Classes
+goats1,Goats,Exhibitor Classes,1,Monday,Show Arena,8:30 AM,,1:00 PM,Goat Judging (day 1),"Showmanship, Special Needs, Myotonic, Boer Goat, and Market Classes"
+llamas_alpacas1,Llamas and Alpacas,Exhibitor Classes,1,Monday,Show Arena,1:00 PM,,4:00 PM,Llamas and Alpacas Judging (day 1),"Showmanship, Performance Classes, Special Needs"
+sheep,Sheep,Exhibitor Classes,1,Monday,Show Arena,4:00 PM,,6:00 PM,Sheep Judging,
+beef,Beef,Exhibitor Classes,2,Tuesday,Show Arena,8:30 AM,,4:30 PM,Beef Judging,"Costume, Jackpot Obstacle, Leaping, Limbo, Paper Chain"
+goats2,Goats,Exhibitor Classes,2,Tuesday,Show Arena,4:30 PM,,6:00 PM,Goat Judging (day 2),"Dairy Goats, Obstacle Classes, and Costume Classes"
+dairy,Dairy,Exhibitor Classes,3,Wednesday,Show Arena,8:30 AM,,12:30 PM,Dairy Judging,
+goats3,Goats,Exhibitor Classes,3,Wednesday,Show Arena,12:30 PM,,1:00 PM,Goat Judging (day 3),"Other Breeds and Pygmys, Pet Wethers"
+llamas_alpacas2,Llamas and Alpacas,Exhibitor Classes,3,Wednesday,Show Arena,1:00 PM,,,Llamas and Alpacas Judging (day 2),"Costume, Jackpot Leaping, Limbo, Paper Chain"
+swine,Swine,Exhibitor Classes,4,Thursday,Show Arena,8:30 AM,,,Swine Judging,"Showmanship, Market Casses (registered followed by gilt then barrow)"
+rabbits1,Rabbits,Exhibitor Classes,1,Monday,Tent Between Buildings #10 and #11,9:00 AM,,,Rabbit Judging (day 1),"Showmanship, Single Market, Doe and Litter, Crossbreeds and Pets, Pen of Two Market"
+rabbits2,Rabbits,Exhibitor Classes,2,Tuesday,Tent Between Buildings #10 and #11,9:00 AM,,,Rabbit Judging (day 2),Show Judging
+rabbits3,Rabbits,Exhibitor Classes,3,Wednesday,Tent Between Buildings #10 and #11,9:00 AM,,,Rabbit Judging (day 3),Rabbit Costume

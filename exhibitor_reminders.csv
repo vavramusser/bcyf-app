@@ -1,0 +1,13 @@
+department,day,location,event_start,event_end,event_end_estimate,event_title,event_description
+Pocket Pets,Friday,Building #34,8:00 AM,8:45 AM,,Pocket Pets Health Check and Entry,
+Goats,Saturday,Goat Barn,11:30 PM,,,Market Goat Entry Release,
+Rabbits,Saturday,Rabbit Barn,11:30 PM,1:00 AM,,Rabbit Release (#1),
+Sheep,Saturday,Show Arena,11:30 PM,,,Market Sheep Exhibit Release,
+Beef,Saturday,,11:30 PM,,,Market Beef Exhibit Release,
+Goats,Sunday,Goat Barn,7:00 AM,11:00 AM,,Non-Market Goat Entry Release,
+Poultry,Sunday,Poultry Barn,7:00 AM,9:00 AM,,Poultry Release,
+Rabbits,Sunday,Rabbit Barn,8:00 AM,9:00 AM,,Rabbit Release (#2),
+Sheep,Sunday,Show Arena,7:00 AM,11:00 AM,,Non-Market Sheep Exhibit Release,
+Beef,Sunday,,7:00 AM,11:00 AM,,Non-Market Beef Exhibit Release,
+Dogs,Thursday,Building #34,8:30 AM,,9:00 AM,Dog Health Check (Thursday),
+Dogs,Tuesday,Building #34,8:00 AM,,9:00 AM,Dog Health Check (Tuesday),

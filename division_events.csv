@@ -1,0 +1,22 @@
+department,event_type,day,location,session_start,event_end,event_end_estimate,event_title,event_description
+Beef; Dairy,Auctions,Friday,Show Arena,12:00 PM,,2:00 PM,Large Animal Auction: Dairy Milk and Beef,Grand Champion Gallon of Milk
+Goats; Sheep,Auctions,Friday,Show Arena,9:00 AM,,11:00 AM,"Large Animal Auction: Sheep, Goats, and Goat Milk","Quart of Milk from Grand Champion Dairy Goat, Market Goats"
+Swine,Auctions,Friday,Show Arena,2:00 PM,,4:00 PM,Large Animal Auction: Swine,
+Crafts; Flowers; Home Economics; Horticulture,Auctions,Satuday,Tent Between Buildings #10 and #11,9:00 AM,,,Still Exhibit Auction,
+Poultry; Rabbits,Auctions,Thursday,Tent Between Buildings #10 and #11,9:30 AM,,,Small Animal Auction,"Market Rabbits, Champion Eggs, Market Turkeys, Market Chickens"
+Crafts,Award Ceremonies,Friday,Mall Stage,12:00 PM,,2:00 PM,Crafts Trophy Presentation,
+Horticulture,Award Ceremonies,Thursday,Mall Stage,12:00 PM,,1:30 PM,Horticulture Awards Presentation,
+Home Economics,Award Ceremonies,Tuesday,Mall Stage,12:00 PM,,1:30 PM,Presentation of Foods Award,
+Home Economics,Award Ceremonies,Wednesday,Mall Stage,12:00 PM,,12:30 PM,Presentation of Clothing Awards,
+Flowers,Award Ceremonies,Wednesday,Mall Stage,3:30 PM,,5:00 PM,Flower Awards Presentation,
+Home Economics,Demonstrations,Friday,Home Economics Building,1:30 PM,,2:30 PM,"Cooking from the Garden, Part IV",
+Home Economics,Demonstrations,Friday,Home Economics Building,4:00 PM,,5:00 PM,Scrappy Quilts,
+Cats; Dogs; Pocket Pets; Poultry; Rabbits,Exhibitor Events,Friday,Building #34,10:30 AM,,11:00 AM,Overall Small Animal Showmanship Sweepstakes,
+Beef; Cats; Dairy; Dogs; Equine; Goats; Llamas and Alpacas; Pocket Pets; Poultry; Rabbits; Sheep; Swine,Exhibitor Events,Satuday,Show Arena,2:30 PM,,5:00 PM,Ag-Olympics,
+Beef; Dairy; Equine; Goats; Llamas and Alpacas; Sheep; Swine,Exhibitor Events,Satuday,Show Arena,12:00 PM,,1:00 PM,Overall Large Animal Showmanship Sweepstakes,
+Other,Exhibitor Events,Satuday,Show Arena,9:00 AM,,12:00 PM,Judging of Youth Tractor Operators,
+Beef; Cats; Crafts; Dairy; Dogs; Equine; Flowers; Goats; Home Economics; Horticulture; Llamas and Alpacas; Pocket Pets; Poultry; Rabbits; Sheep; Swine,Exhibitor Events,Saturday,Ends in Show Arena,5:45 PM,,6:15 PM,Parade of Champions,
+Other,Exhibitor Events,Saturday,Youth Memorial Building,9:00 AM,,10:00 AM,Judging of Communication Classes,
+Horticulture,Exhibitor Events,Tuesday,Youth Memorial Building,6:00 PM,,7:00 AM,Horticulture Contest,
+Dogs,Exhibitor Events,Wednesday,Building #34,6:00 PM,7:00 PM,,Dog Meet and Greet,
+Home Economics,Exhibitor Events,Wednesday,Mall Stage,12:30 PM,,2:30 PM,Style Show,

@@ -1,116 +1,116 @@
-department,class_group,class_subgroup,class_subsubgroup,class_id,class_number,class_champion,class_title,class_description,session_id,program_order,age_min,age_max,trophy
-Beef,Showmanship,Beef Showmanship,,s6,,,Senior Division Beef Showmanship,,beef,1,16,20,Chuck Noffke Trophy (be12c)
-Beef,Showmanship,Beef Showmanship,,s7,,,Intermediate Division Beef Showmanship,,beef,2,13,15,Chuck Durm Trophy (be13c)
-Beef,Showmanship,Beef Showmanship,,s8,,,Junior Division Beef Showmanship,,beef,3,9,12, Lester Sebasty Family Trophy (be14r)
-Beef,Showmanship,Beef Showmanship,,s9,,,Young Junion Division Beef Showmanship,,beef,4,6,8,Patti Cuthbert White Trophy (be15r)
-Beef,Showmanship,Beef Showmanship,,s10,,,5-Year-Old Division Beef Showmanship,,beef,5,5,5,TCG Cattle Company Trophy (be53r)
-Beef,Showmanship,Beef Showmanship,,s11,,TRUE,Grand Champion Beef Showmanshp,,beef,6,,,"Champion: Lakeview Farms - Belt Buckle
+department,class_group,class_subgroup,class_subsubgroup,class_id,class_number,class_champion,tochampion_id,class_title,class_description,champion_selection,session_id,program_order,age_min,age_max,trophy
+Beef,Showmanship,,,s6,,,s11,Senior Division Beef Showmanship,,,beef,1,16,20,Chuck Noffke Trophy (be12c) Banner
+Beef,Showmanship,,,s7,,,s11,Intermediate Division Beef Showmanship,,,beef,2,13,15,Chuck Durm Trophy (be13c) Banner
+Beef,Showmanship,,,s8,,,s11,Junior Division Beef Showmanship,,,beef,3,9,12,Lester Sebasty Family Trophy (be14r) Banner
+Beef,Showmanship,,,s9,,,s11,Young Junion Division Beef Showmanship,,,beef,4,6,8,Patti Cuthbert White Trophy (be15r) Banner
+Beef,Showmanship,,,s10,,,s11,5-Year-Old Division Beef Showmanship,,,beef,5,5,5,TCG Cattle Company Trophy (be53r) Banner
+Beef,Showmanship,,,s11,,TRUE,c157,Champion Beef Showmanshp,,,beef,6,,,"Champion: Lakeview Farms - Belt Buckle
 Reserve Champion: Brunke Chiangus Farms - Belt Buckle"
-Beef,Breeding,Beef Breeding,Hereford,c92,92,,Hereford Heifer Calf,,beef,7,,,
-Beef,Breeding,Beef Breeding,Hereford,c93,93,,Hereford Yearling Heifer,,beef,8,,,
-Beef,Breeding,Beef Breeding,Hereford,c94,94,,Hereford Yearling Heifer,,beef,9,,,
-Beef,Breeding,Beef Breeding,Hereford,c95,95,,Hereford Yearling Heifer,,beef,10,,,
-Beef,Breeding,Beef Breeding,Hereford,c96,96,,Hereford Yearling Heifer,,beef,11,,,
-Beef,Breeding,Beef Breeding,Hereford,c97,97,,Hereford Yearling Heifer,,beef,12,,,
-Beef,Breeding,Beef Breeding,Hereford,c98,98,,Hereford Cow,,beef,13,,,
-Beef,Breeding,Beef Breeding,Hereford,c99,99,,Hereford Cow and Calf,,beef,14,,,
-Beef,Breeding,Beef Breeding,Hereford,c100,,TRUE,Champion Hereford Female,,beef,15,,,"Champion: Rodney Jannert Trophy (be28r)
+Beef,Breeding,Hereford,,c92,92,,c100,Hereford Heifer Calf,,,beef,7,,,
+Beef,Breeding,Hereford,,c93,93,,c100,Hereford Yearling Heifer,,,beef,8,,,
+Beef,Breeding,Hereford,,c94,94,,c100,Hereford Yearling Heifer,,,beef,9,,,
+Beef,Breeding,Hereford,,c95,95,,c100,Hereford Yearling Heifer,,,beef,10,,,
+Beef,Breeding,Hereford,,c96,96,,c100,Hereford Yearling Heifer,,,beef,11,,,
+Beef,Breeding,Hereford,,c97,97,,c100,Hereford Yearling Heifer,,,beef,12,,,
+Beef,Breeding,Hereford,,c98,98,,c100,Hereford Cow,,,beef,13,,,
+Beef,Breeding,Hereford,,c99,99,,c100,Hereford Cow and Calf,,,beef,14,,,
+Beef,Breeding,Hereford,,c100,,TRUE,c157,Champion Hereford Female,,,beef,15,,,"Champion: Rodney Jannert Trophy (be28r)
 Reserve Champion: Doug Clark Memorial Trophy (be39"
-Beef,Breeding,Beef Breeding,Angus,c103,103,,Angus Heifer Calf,,beef,16,,,
-Beef,Breeding,Beef Breeding,Angus,c104,104,,Angus Yearling Heifer,,beef,17,,,
-Beef,Breeding,Beef Breeding,Angus,c105,105,,Angus Yearling Heifer,,beef,18,,,
-Beef,Breeding,Beef Breeding,Angus,c106,106,,Angus Yearling Heifer,,beef,19,,,
-Beef,Breeding,Beef Breeding,Angus,c107,107,,Angus Yearling Heifer,,beef,20,,,
-Beef,Breeding,Beef Breeding,Angus,c108,108,,Angus Yearling Heifer,,beef,21,,,
-Beef,Breeding,Beef Breeding,Angus,c109,109,,Angus Cow,,beef,22,,,
-Beef,Breeding,Beef Breeding,Angus,c110,110,,Angus Cow and Calf,,beef,23,,,
-Beef,Breeding,Beef Breeding,Angus,c111,,TRUE,Champion Angus Female,,beef,24,,,"Champion: Seldom Rest Farm Trophy (be30r) 
+Beef,Breeding,Angus,,c103,103,,c111,Angus Heifer Calf,,,beef,16,,,
+Beef,Breeding,Angus,,c104,104,,c111,Angus Yearling Heifer,,,beef,17,,,
+Beef,Breeding,Angus,,c105,105,,c111,Angus Yearling Heifer,,,beef,18,,,
+Beef,Breeding,Angus,,c106,106,,c111,Angus Yearling Heifer,,,beef,19,,,
+Beef,Breeding,Angus,,c107,107,,c111,Angus Yearling Heifer,,,beef,20,,,
+Beef,Breeding,Angus,,c108,108,,c111,Angus Yearling Heifer,,,beef,21,,,
+Beef,Breeding,Angus,,c109,109,,c111,Angus Cow,,,beef,22,,,
+Beef,Breeding,Angus,,c110,110,,c111,Angus Cow and Calf,,,beef,23,,,
+Beef,Breeding,Angus,,c111,,TRUE,c157,Champion Angus Female,,,beef,24,,,"Champion: Seldom Rest Farm Trophy (be30r) 
 Reserve Champion:  Corissa Coleman-Johnson Trophy (be38r)"
-Beef,Breeding,Beef Breeding,Simmental,c113,113,,Simmental Heifer Calf,,beef,25,,,
-Beef,Breeding,Beef Breeding,Simmental,c114,114,,Simmental Yearling Heifer,,beef,26,,,
-Beef,Breeding,Beef Breeding,Simmental,c115,115,,Simmental Yearling Heifer,,beef,27,,,
-Beef,Breeding,Beef Breeding,Simmental,c116,116,,Simmental Yearling Heifer,,beef,28,,,
-Beef,Breeding,Beef Breeding,Simmental,c117,117,,Simmental Yearling Heifer,,beef,29,,,
-Beef,Breeding,Beef Breeding,Simmental,c118,118,,Simmental Yearling Heifer,,beef,30,,,
-Beef,Breeding,Beef Breeding,Simmental,c119,119,,Simmental Cow,,beef,31,,,
-Beef,Breeding,Beef Breeding,Simmental,c120,120,,Simmental Cow and Calf,,beef,32,,,
-Beef,Breeding,Beef Breeding,Simmental,c121,,TRUE,Champion Simmental Female,,beef,33,,,"Champion: Kylie Ann Brunke Trophy (be31r)
+Beef,Breeding,Simmental,,c113,113,,c121,Simmental Heifer Calf,,,beef,25,,,
+Beef,Breeding,Simmental,,c114,114,,c121,Simmental Yearling Heifer,,,beef,26,,,
+Beef,Breeding,Simmental,,c115,115,,c121,Simmental Yearling Heifer,,,beef,27,,,
+Beef,Breeding,Simmental,,c116,116,,c121,Simmental Yearling Heifer,,,beef,28,,,
+Beef,Breeding,Simmental,,c117,117,,c121,Simmental Yearling Heifer,,,beef,29,,,
+Beef,Breeding,Simmental,,c118,118,,c121,Simmental Yearling Heifer,,,beef,30,,,
+Beef,Breeding,Simmental,,c119,119,,c121,Simmental Cow,,,beef,31,,,
+Beef,Breeding,Simmental,,c120,120,,c121,Simmental Cow and Calf,,,beef,32,,,
+Beef,Breeding,Simmental,,c121,,TRUE,c157,Champion Simmental Female,,,beef,33,,,"Champion: Kylie Ann Brunke Trophy (be31r)
 Reserve Champion: Jannert Farms Trophy (be32r)"
-Beef,Breeding,Beef Breeding,Chianina,c123,123,,Chianina Heifer Calf,,beef,34,,,
-Beef,Breeding,Beef Breeding,Chianina,c124,124,,Chianina Yearling Heifer,,beef,35,,,
-Beef,Breeding,Beef Breeding,Chianina,c125,125,,Chianina Yearling Heifer,,beef,36,,,
-Beef,Breeding,Beef Breeding,Chianina,c126,126,,Chianina Yearling Heifer,,beef,37,,,
-Beef,Breeding,Beef Breeding,Chianina,c127,127,,Chianina Yearling Heifer,,beef,38,,,
-Beef,Breeding,Beef Breeding,Chianina,c128,128,,Chianina Yearling Heifer,,beef,39,,,
-Beef,Breeding,Beef Breeding,Chianina,c129,129,,Chianina Cow,,beef,40,,,
-Beef,Breeding,Beef Breeding,Chianina,c130,130,,Chianina Cow and Calf,,beef,41,,,
-Beef,Breeding,Beef Breeding,Chianina,c131,,TRUE,Champion Chianina Female,,beef,42,,,"Champion: Kylie Ann Brunke Trophy (be33r)
+Beef,Breeding,Chianina,,c123,123,,c131,Chianina Heifer Calf,,,beef,34,,,
+Beef,Breeding,Chianina,,c124,124,,c131,Chianina Yearling Heifer,,,beef,35,,,
+Beef,Breeding,Chianina,,c125,125,,c131,Chianina Yearling Heifer,,,beef,36,,,
+Beef,Breeding,Chianina,,c126,126,,c131,Chianina Yearling Heifer,,,beef,37,,,
+Beef,Breeding,Chianina,,c127,127,,c131,Chianina Yearling Heifer,,,beef,38,,,
+Beef,Breeding,Chianina,,c128,128,,c131,Chianina Yearling Heifer,,,beef,39,,,
+Beef,Breeding,Chianina,,c129,129,,c131,Chianina Cow,,,beef,40,,,
+Beef,Breeding,Chianina,,c130,130,,c131,Chianina Cow and Calf,,,beef,41,,,
+Beef,Breeding,Chianina,,c131,,TRUE,c157,Champion Chianina Female,,,beef,42,,,"Champion: Kylie Ann Brunke Trophy (be33r)
 Reserve Champion: Zeilke Brothers Trophy (be35r) "
-Beef,Breeding,Beef Breeding,Shorthorn,c133,133,,Shorthorn Heifer Calf,,beef,43,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c134,134,,Shorthorn Yearling Heifer,,beef,44,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c135,135,,Shorthorn Yearling Heifer,,beef,45,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c136,136,,Shorthorn Yearling Heifer,,beef,46,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c137,137,,Shorthorn Yearling Heifer,,beef,47,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c138,138,,Shorthorn Yearling Heifer,,beef,48,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c139,139,,Shorthorn Cow,,beef,49,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c140,140,,Shorthorn Cow and Calf,,beef,50,,,
-Beef,Breeding,Beef Breeding,Shorthorn,c141,,TRUE,Champion Shorthorn Female,,beef,51,,,"Champion: Lakeview Farms Trophy (be36 r)
+Beef,Breeding,Shorthorn,,c133,133,,c141,Shorthorn Heifer Calf,,,beef,43,,,
+Beef,Breeding,Shorthorn,,c134,134,,c141,Shorthorn Yearling Heifer,,,beef,44,,,
+Beef,Breeding,Shorthorn,,c135,135,,c141,Shorthorn Yearling Heifer,,,beef,45,,,
+Beef,Breeding,Shorthorn,,c136,136,,c141,Shorthorn Yearling Heifer,,,beef,46,,,
+Beef,Breeding,Shorthorn,,c137,137,,c141,Shorthorn Yearling Heifer,,,beef,47,,,
+Beef,Breeding,Shorthorn,,c138,138,,c141,Shorthorn Yearling Heifer,,,beef,48,,,
+Beef,Breeding,Shorthorn,,c139,139,,c141,Shorthorn Cow,,,beef,49,,,
+Beef,Breeding,Shorthorn,,c140,140,,c141,Shorthorn Cow and Calf,,,beef,50,,,
+Beef,Breeding,Shorthorn,,c141,,TRUE,c157,Champion Shorthorn Female,,,beef,51,,,"Champion: Lakeview Farms Trophy (be36 r)
 Reserve Champion: Kuntz’s 4-M Cattle Farm Trophy (be34r)"
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c143,143,,Any Other Registered Breed Heifer Calf,,beef,52,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c144,144,,Any Other Registered Breed Yearling Heifer,,beef,54,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c145,145,,Any Other Registered Breed Yearling Heifer,,beef,56,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c146,146,,Any Other Registered Breed Yearling Heifer,,beef,58,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c147,147,,Any Other Registered Breed Yearling Heifer,,beef,60,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c148,148,,Any Other Registered Breed Yearling Heifer,,beef,62,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c149,149,,Any Other Registered Breed Cow,,beef,64,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c150,150,,Any Other Registered Breed Cow and Calf,,beef,66,,,
-Beef,Breeding,Beef Breeding,Any Other Registered Breed,c151,,TRUE,"Champion Female, Any Other Registered Breed",,beef,68,,,"Champion: Bruce E. Pastryk Memorial Trophy (be64r)
+Beef,Breeding,Any Other Registered Breed,,c143,143,,c151,Any Other Registered Breed Heifer Calf,,,beef,52,,,
+Beef,Breeding,Any Other Registered Breed,,c144,144,,c151,Any Other Registered Breed Yearling Heifer,,,beef,54,,,
+Beef,Breeding,Any Other Registered Breed,,c145,145,,c151,Any Other Registered Breed Yearling Heifer,,,beef,56,,,
+Beef,Breeding,Any Other Registered Breed,,c146,146,,c151,Any Other Registered Breed Yearling Heifer,,,beef,58,,,
+Beef,Breeding,Any Other Registered Breed,,c147,147,,c151,Any Other Registered Breed Yearling Heifer,,,beef,60,,,
+Beef,Breeding,Any Other Registered Breed,,c148,148,,c151,Any Other Registered Breed Yearling Heifer,,,beef,62,,,
+Beef,Breeding,Any Other Registered Breed,,c149,149,,c151,Any Other Registered Breed Cow,,,beef,64,,,
+Beef,Breeding,Any Other Registered Breed,,c150,150,,c151,Any Other Registered Breed Cow and Calf,,,beef,66,,,
+Beef,Breeding,Any Other Registered Breed,,c151,,TRUE,c157,"Champion Female, Any Other Registered Breed",,,beef,68,,,"Champion: Bruce E. Pastryk Memorial Trophy (be64r)
 Reserve Champion: Michael G. Kuhn Memorial Trophy (be65r)"
-Beef,Breeding,Beef Breeding,Commercial Beef,c153,153,,Commercial Beef Female Heifer,,beef,69,,,
-Beef,Breeding,Beef Breeding,Commercial Beef,c154,154,,Commercial Beef Female Cow and Calf,,beef,70,,,
-Beef,Breeding,Beef Breeding,Commercial Beef,c155,,TRUE,Champion Commercial Beef Female,,beef,71,,,"Champion: Krieger Simmental Farm Trophy (be29c)
+Beef,Breeding,Commercial Beef,,c153,153,,c155,Commercial Beef Female Heifer,,,beef,69,,,
+Beef,Breeding,Commercial Beef,,c154,154,,c155,Commercial Beef Female Cow and Calf,,,beef,70,,,
+Beef,Breeding,Commercial Beef,,c155,,TRUE,c157,Champion Commercial Beef Female,,,beef,71,,,"Champion: Krieger Simmental Farm Trophy (be29c)
 Reserve Champion: Scott Brunke Trophy (be37r)"
-Beef,Breeding,Beef Breeding,Grand Champion Beef Female,c157,,TRUE,Grand Champion Beef Female,,beef,72,,,"Champion: Megan & Kylie Brunke Trophy (be26r)
+Beef,Breeding,Grand Champion,,c157,,TRUE,,Grand Champion Beef Female,,,beef,72,,,"Champion: Megan & Kylie Brunke Trophy (be26r)
 Reserve Champion: Bruce Foster Trophy (be27r)
 Third Place: Al & Lori Wesner Trophy (be57r)
 Fourth Place: Robert & Diana Brunke Trophy (be56r)
 Fifth Place: Kaminski Farms Trophy (be61r)"
-Beef,Market Animals,Beef Feeder Calves,,c162,162,,British Beef Feeder Calf,"All Angus, Herefords, and Shorthorns",beef,73,,,"Champion: YellowGateFarm,Gary/Bonnie Rehmel Trophy (be42r)
+Beef,Market,Feeder Calves,,c162,162,,c171,British Beef Feeder Calf,"All Angus, Herefords, and Shorthorns",,beef,73,,,"Champion: YellowGateFarm,Gary/Bonnie Rehmel Trophy (be42r)
 Reserve Champion: InLovingMemory of Aunt Lisa Bloom Trophy (be43r)"
-Beef,Market Animals,Beef Feeder Calves,,c165,165,,All Other Breeds Beef Feeder Calf,,beef,74,,,"Champion: TCG Cattle Company Trophy (be41c)
+Beef,Market,Feeder Calves,,c165,165,,c171,All Other Breeds Beef Feeder Calf,,,beef,74,,,"Champion: TCG Cattle Company Trophy (be41c)
 Reserve Champion: Kate Jasper Trophy (be44r)"
-Beef,Market Animals,Beef Feeder Calves,,c168,168,,Dairy Feeder Calf,100% Dairy Breeding,beef,75,,,"Champion: The Terry Koebel Family Trophy (be45r)
+Beef,Market,Feeder Calves,,c168,168,,c171,Dairy Feeder Calf,100% Dairy Breeding,,beef,75,,,"Champion: The Terry Koebel Family Trophy (be45r)
 Reserve Champion: Roberts Dairy Trophy (be17r)"
-Beef,Market Animals,Beef Feeder Calves,,c171,,TRUE,Grand Champion Feeder Calf,,beef,76,,,"Champion: Megan Brunke Trophy (be51r)
+Beef,Market,Feeder Calves,,c171,,TRUE,,Grand Champion Feeder Calf,,,beef,76,,,"Champion: Megan Brunke Trophy (be51r)
 Reserve Champion: Thomas Durm Trophy (be54r)"
-Beef,Market Animals,Market Beef,,c176,176,,Shorthorn Market Steer,50% Shorthorn,beef,77,,,"Champion: Jim/Barbara Hopkins Trophy (be03c)
+Beef,Market,Steers,,c176,176,,c200,Shorthorn Market Steer,50% Shorthorn,,beef,77,,,"Champion: Jim/Barbara Hopkins Trophy (be03c)
 Reserve Champion: DKT Livestock Trophy, Klopfenstein Family (be50a)"
-Beef,Market Animals,Market Beef,,c179,179,,Hereford Market Steer,100% Hereford,beef,78,,,"Champion: Tom Walton Trophy (be05r)
+Beef,Market,Steers,,c179,179,,c200,Hereford Market Steer,100% Hereford,,beef,78,,,"Champion: Tom Walton Trophy (be05r)
 Reserve Champion: Ralph & Margaret Swartz Memorial Trophy (be11r)"
-Beef,Market Animals,Market Beef,,c182,182,,Angus Market Steer,100% Angus,beef,79,,,"Champion: Dr. Duane Ullrey Memorial Trophy (be07r)
+Beef,Market,Steers,,c182,182,,c200,Angus Market Steer,100% Angus,,beef,79,,,"Champion: Dr. Duane Ullrey Memorial Trophy (be07r)
 Reserve Champion: Wesner Angus Farm Trophy (be46r)"
-Beef,Market Animals,Market Beef,,c185,185,,Simmental Market Steer,50% or more Simmental,beef,80,,,"Champion: Mark Krieger Trophy (be08c)
+Beef,Market,Steers,,c185,185,,c200,Simmental Market Steer,50% or more Simmental,,beef,80,,,"Champion: Mark Krieger Trophy (be08c)
 Reserve Champion: David Gotsch Trophy (be55r)"
-Beef,Market Animals,Market Beef,,c188,188,,Chianina Market Steer,,beef,81,,,"Champion: Doug Clark Mem. Trophy (be40r)
+Beef,Market,Steers,,c188,188,,c200,Chianina Market Steer,,,beef,81,,,"Champion: Doug Clark Mem. Trophy (be40r)
 Reserve Champion: Megan Elizabeth Brunke Trophy (be47r)"
-Beef,Market Animals,Market Beef,,c191,191,,Crossbred Market Steer,50% or more beef breeding,beef,82,,,"Champion: Cuthbert Tractor Sales Trophy (be06c)
+Beef,Market,Steers,,c191,191,,c200,Crossbred Market Steer,50% or more beef breeding,,beef,82,,,"Champion: Cuthbert Tractor Sales Trophy (be06c)
 Reserve Champion: In Memory of Howard Sherwood Trophy (be48r)"
-Beef,Market Animals,Market Beef,,c194,194,,Dairy Market Steer,100% Dairy,beef,83,,,"Champion: Shuler & Sons Farms Trophy (be09r)
+Beef,Market,Steers,,c194,194,,c200,Dairy Market Steer,100% Dairy,,beef,83,,,"Champion: Shuler & Sons Farms Trophy (be09r)
 Reserve Champion: Strefling Grain Trophy (be04r)"
-Beef,Market Animals,Market Beef,,c197,197,,Market Heifer,100% Beef Bred,beef,84,,,"Champion: Don Payne Family Trophy (be10r)
+Beef,Market,Heifers,,c197,197,,c200,Market Heifer,100% Beef Bred,,beef,84,,,"Champion: Don Payne Family Trophy (be10r)
 Reserve Champion: DKT Livestock Trophy (be49a)"
-Beef,Market Animals,Market Beef,,c200,,TRUE,Grand Champion Market Beef Animal,,beef,85,,,"Champion: Bruce Dale Foster Trophy (be01r)
+Beef,Market,Grand Champion,,c200,,TRUE,,Grand Champion Market Beef Animal,,,beef,85,,,"Champion: Bruce Dale Foster Trophy (be01r)
 Reserve Champion: Dale Seyfred Trophy (be02c) 
 Third Place: Steve Rogers Family Trophy (be60r)
 Fourth Place: Adam, Kevin & Erica Mitchell Trophy (be59r)
 Fifth Place: Eric & Heather Lentz Trophy (be58r)"
-Beef,Rate of Gain,,,c205,,,Shorthorn Rate of Gain,,beef,,,,Beef Barn Memorials Trophy (be16r)
-Beef,Rate of Gain,,,c206,,,Hereford Rate of Gain,,beef,,,,Jannert Polled Hereford Farm Trophy (be18r)
-Beef,Rate of Gain,,,c207,,,Angus Rate of Gain,,beef,,,,Brian & Kelly Dargus Trophy (be19r)
-Beef,Rate of Gain,,,c208,,,Simmental Rate of Gain,,beef,,,,Durm Family Trophy (be21c)
-Beef,Rate of Gain,,,c209,,,Chianina Rate of Gain,,beef,,,,DKT Livestock Trophy - Klopfenstein Family (be52a)
-Beef,Rate of Gain,,,c210,,,Crossbred Rate of Gain,,beef,,,,Billy & Tracy Donner Family Farm Trophy (be20r)
-Beef,Rate of Gain,,,c211,,,Dairy Steer Rate of Gain,,beef,,,,Hill-Milt Farm Trophy (be22c)
-Beef,Rate of Gain,,,c212,,,Market Heifer Rate of Gain,,beef,,,,"Zeilke Brothers Farm Trophy (be23r) "
-Beef,Rate of Gain,,,c213,,TRUE,Champion Overall Beef Rate of Gain,,beef,,,,"Champion: Pam Lawrick & Mark Koebel Trophy (be24c) Banner
+Beef,Rate of Gain,,,c205,,,c213,Shorthorn Rate of Gain,,,beef,,,,Beef Barn Memorials Trophy (be16r)
+Beef,Rate of Gain,,,c206,,,c213,Hereford Rate of Gain,,,beef,,,,Jannert Polled Hereford Farm Trophy (be18r)
+Beef,Rate of Gain,,,c207,,,c213,Angus Rate of Gain,,,beef,,,,Brian & Kelly Dargus Trophy (be19r)
+Beef,Rate of Gain,,,c208,,,c213,Simmental Rate of Gain,,,beef,,,,Durm Family Trophy (be21c)
+Beef,Rate of Gain,,,c209,,,c213,Chianina Rate of Gain,,,beef,,,,DKT Livestock Trophy - Klopfenstein Family (be52a)
+Beef,Rate of Gain,,,c210,,,c213,Crossbred Rate of Gain,,,beef,,,,Billy & Tracy Donner Family Farm Trophy (be20r)
+Beef,Rate of Gain,,,c211,,,c213,Dairy Steer Rate of Gain,,,beef,,,,Hill-Milt Farm Trophy (be22c)
+Beef,Rate of Gain,,,c212,,,c213,Market Heifer Rate of Gain,,,beef,,,,"Zeilke Brothers Farm Trophy (be23r) "
+Beef,Rate of Gain,,,c213,,TRUE,,Champion Overall Beef Rate of Gain,,,beef,,,,"Champion: Pam Lawrick & Mark Koebel Trophy (be24c) Banner
 Reserve Champion: Green Meadow Farm Trophy (be25c) Banner"

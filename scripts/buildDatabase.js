@@ -92,12 +92,50 @@ db.serialize(() => {
       program_order INTEGER,
       class_group TEXT,
       class_subgroup TEXT,
+      class_subsubgroup TEXT,
       class_champion TEXT,
       FOREIGN KEY (session_id) REFERENCES sessions(session_id)
     )
   `, (err) => {
     if (err) console.error('Error creating classes table:', err);
     else console.log('Classes table created');
+  });
+
+  // Create division_events table
+  db.run(`
+    CREATE TABLE division_events (
+      event_id INTEGER PRIMARY KEY AUTOINCREMENT,
+      departments TEXT,
+      event_type TEXT,
+      day TEXT,
+      location TEXT,
+      event_start TEXT,
+      event_end TEXT,
+      event_end_estimate TEXT,
+      event_title TEXT,
+      event_description TEXT
+    )
+  `, (err) => {
+    if (err) console.error('Error creating division_events table:', err);
+    else console.log('Division events table created');
+  });
+
+  // Create exhibitor_reminders table
+  db.run(`
+    CREATE TABLE exhibitor_reminders (
+      reminder_id INTEGER PRIMARY KEY AUTOINCREMENT,
+      department TEXT,
+      day TEXT,
+      location TEXT,
+      event_start TEXT,
+      event_end TEXT,
+      event_end_estimate TEXT,
+      event_title TEXT,
+      event_description TEXT
+    )
+  `, (err) => {
+    if (err) console.error('Error creating exhibitor_reminders table:', err);
+    else console.log('Exhibitor reminders table created');
   });
 
   // Load sessions
@@ -151,7 +189,7 @@ db.serialize(() => {
   ];
 
   const classStmt = db.prepare(`
-    INSERT INTO classes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO classes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
 
   let totalClasses = 0;
@@ -172,6 +210,7 @@ db.serialize(() => {
           parseInt(c.program_order) || null,
           c.class_group || '',
           c.class_subgroup || '',
+          c.class_subsubgroup || '',
           c.class_champion || '',
           (err) => {
             if (err) console.error(`Error inserting class ${i} from ${file}:`, err);
@@ -187,6 +226,69 @@ db.serialize(() => {
   
   classStmt.finalize();
   console.log(`\nTotal classes loaded: ${totalClasses}`);
+
+  // Load division events
+  const divisionEventsPath = path.join(__dirname, '../division_events.csv');
+  if (fs.existsSync(divisionEventsPath)) {
+    console.log('\nLoading division events...');
+    const divisionEvents = parseCSV(divisionEventsPath);
+    
+    const divEventStmt = db.prepare(`
+      INSERT INTO division_events (departments, event_type, day, location, event_start, event_end, event_end_estimate, event_title, event_description)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+    
+    divisionEvents.forEach((e, i) => {
+      divEventStmt.run(
+        e.department,
+        e.event_type,
+        e.day,
+        e.location,
+        e.session_start,
+        e.event_end || '',
+        e.event_end_estimate || '',
+        e.event_title,
+        e.event_description || '',
+        (err) => {
+          if (err) console.error(`Error inserting division event ${i}:`, err);
+        }
+      );
+    });
+    
+    divEventStmt.finalize();
+    console.log(`Loaded ${divisionEvents.length} division events`);
+  }
+
+  // Load exhibitor reminders
+  const exhibitorRemindersPath = path.join(__dirname, '../exhibitor_reminders.csv');
+  if (fs.existsSync(exhibitorRemindersPath)) {
+    console.log('\nLoading exhibitor reminders...');
+    const reminders = parseCSV(exhibitorRemindersPath);
+    
+    const reminderStmt = db.prepare(`
+      INSERT INTO exhibitor_reminders (department, day, location, event_start, event_end, event_end_estimate, event_title, event_description)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+    
+    reminders.forEach((r, i) => {
+      reminderStmt.run(
+        r.department,
+        r.day,
+        r.location,
+        r.event_start,
+        r.event_end || '',
+        r.event_end_estimate || '',
+        r.event_title,
+        r.event_description || '',
+        (err) => {
+          if (err) console.error(`Error inserting reminder ${i}:`, err);
+        }
+      );
+    });
+    
+    reminderStmt.finalize();
+    console.log(`Loaded ${reminders.length} exhibitor reminders`);
+  }
 });
 
 db.close((err) => {

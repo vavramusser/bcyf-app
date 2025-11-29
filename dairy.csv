@@ -1,50 +1,50 @@
-department,class_group,class_subgroup,class_subsubgroup,class_id,class_number,class_champion,class_title,class_description,session_id,program_order,age_min,age_max,trophy
-Dairy,Showmanship,,,s1,,,Young Junior Division Dairy Showmanship,,dairy,1,5,8,"Roberts Family Trophy (da17a) Banner "
-Dairy,Showmanship,,,s2,,,Junior Division Dairy Showmanship,,dairy,2,9,12,Dale & Lena Young Trophy (da14a) Banner 
-Dairy,Showmanship,,,s3,,,Intermediate Division Dairy Showmanship,,dairy,3,13,15,"Chuck & Barb Miltenberger Trophy (da16a) Banner"
-Dairy,Showmanship,,,s4,,,Senior Division Dairy Showmanship,,dairy,4,16,20,Mark & Kevin Young Trophy (da15a) Banner 
-Dairy,Showmanship,,,s5,,TRUE,Grand Champion Dairy Showmanship,,dairy,5,,,"Keith Brohman Memorial Trophy (da13r) "
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c20,20,,"Junior Heifer Calf, All Other Dairy Breeds",,dairy,6,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c21,21,,"Intermediate Heifer, All Other Dairy Breeds",,dairy,7,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c22,22,,"Senior Heifer Calf, All Other Dairy Breeds",,dairy,8,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c23,23,,"Summer Yearling Heifer, All Other Dairy Breeds",,dairy,9,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c24,24,,"Junior Yearling Heifer, All Other Dairy Breeds",,dairy,10,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c25,25,,"Winter Yearling Heifer, All Other Dairy Breeds",,dairy,11,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c26,26,,"Senior Yearling Heifer, All Other Dairy Breeds",,dairy,12,,,
-Dairy,Breeding,All Other Dairy Breeds,Junior Heifers,c27,,TRUE,"Junior Champion Female, All Other Dairy Breeds",First and second place winners in classes 20 through 26 must compete in this class.,dairy,13,,,"Champion: Carla Willis Memorial Trophy (da10r)
+department,class_group,class_subgroup,class_subsubgroup,class_id,class_number,class_champion,tochampion_id,class_title,class_description,session_id,program_order,age_min,age_max,trophy
+Dairy,Showmanship,,,s1,,,s5,Young Junior Division Dairy Showmanship,,dairy,1,5,8,"Roberts Family Trophy (da17a) Banner "
+Dairy,Showmanship,,,s2,,,s5,Junior Division Dairy Showmanship,,dairy,2,9,12,Dale & Lena Young Trophy (da14a) Banner 
+Dairy,Showmanship,,,s3,,,s5,Intermediate Division Dairy Showmanship,,dairy,3,13,15,"Chuck & Barb Miltenberger Trophy (da16a) Banner"
+Dairy,Showmanship,,,s4,,,s5,Senior Division Dairy Showmanship,,dairy,4,16,20,Mark & Kevin Young Trophy (da15a) Banner 
+Dairy,Showmanship,,,s5,,TRUE,,Grand Champion Dairy Showmanship,,dairy,5,,,"Keith Brohman Memorial Trophy (da13r) "
+Dairy,Breeding,Heifers,,c20,20,,c27,"Junior Heifer Calf, All Other Dairy Breeds",,dairy,6,,,
+Dairy,Breeding,Heifers,,c21,21,,c27,"Intermediate Heifer, All Other Dairy Breeds",,dairy,7,,,
+Dairy,Breeding,Heifers,,c22,22,,c27,"Senior Heifer Calf, All Other Dairy Breeds",,dairy,8,,,
+Dairy,Breeding,Heifers,,c23,23,,c27,"Summer Yearling Heifer, All Other Dairy Breeds",,dairy,9,,,
+Dairy,Breeding,Heifers,,c24,24,,c27,"Junior Yearling Heifer, All Other Dairy Breeds",,dairy,10,,,
+Dairy,Breeding,Heifers,,c25,25,,c27,"Winter Yearling Heifer, All Other Dairy Breeds",,dairy,11,,,
+Dairy,Breeding,Heifers,,c26,26,,c27,"Senior Yearling Heifer, All Other Dairy Breeds",,dairy,12,,,
+Dairy,Breeding,Heifers,,c27,,TRUE,c41,"Junior Champion Female, All Other Dairy Breeds",First and second place winners in classes 20 through 26 must compete in this class.,dairy,13,,,"Champion: Carla Willis Memorial Trophy (da10r)
 Reserve Champion: Brohman Farms Trophy (da19r)"
-Dairy,Breeding,All Other Dairy Breeds,Senior Heifers,c31,31,,"Two Year Old Heifer, in Milk, All Other Dairy Breeds",,dairy,14,,,
-Dairy,Breeding,All Other Dairy Breeds,Senior Heifers,c33,33,,"Three Year Old Cow, In Milk, All Other Dairy Breeds",,dairy,15,,,
-Dairy,Breeding,All Other Dairy Breeds,Senior Heifers,c35,35,,"Four Year Old Cow, In Milk, All Other Dairy Breeds",,dairy,16,,,
-Dairy,Breeding,All Other Dairy Breeds,Senior Heifers,c37,37,,"Aged Cow, In Milk, All Other Dairy Breeds",,dairy,17,,,
-Dairy,Breeding,All Other Dairy Breeds,,c39,,TRUE,"Senior Champion Female, All Other Dairy Breeds",First and second place winners in classes 31 through 37 must compete in this class.,dairy,18,,,"Champion: Patrick Freehling Memorial Trophy (da11a)
+Dairy,Breeding,Heifers,,c31,31,,c39,"Two Year Old Heifer, in Milk, All Other Dairy Breeds",,dairy,14,,,
+Dairy,Breeding,Heifers,,c33,33,,c39,"Three Year Old Cow, In Milk, All Other Dairy Breeds",,dairy,15,,,
+Dairy,Breeding,Heifers,,c35,35,,c39,"Four Year Old Cow, In Milk, All Other Dairy Breeds",,dairy,16,,,
+Dairy,Breeding,Heifers,,c37,37,,c39,"Aged Cow, In Milk, All Other Dairy Breeds",,dairy,17,,,
+Dairy,Breeding,All Other Dairy Breeds,,c39,,TRUE,c41,"Senior Champion Female, All Other Dairy Breeds",First and second place winners in classes 31 through 37 must compete in this class.,dairy,18,,,"Champion: Patrick Freehling Memorial Trophy (da11a)
 Reserve Champion: Shuler Dairy Farms Trophy (da20r)"
-Dairy,Breeding,All Other Dairy Breeds,,c41,,TRUE,"Grand Champion, Other Dairy Breeds, All Other Dairy Breeds",Winners of Junior and Senior Championship classes must compete.,dairy,19,,,"Grand Champion: Irene Klug-Gerwig Trophy (da08r)
+Dairy,Breeding,All Other Dairy Breeds,,c41,,TRUE,c77,"Grand Champion, Other Dairy Breeds, All Other Dairy Breeds",Winners of Junior and Senior Championship classes must compete.,dairy,19,,,"Grand Champion: Irene Klug-Gerwig Trophy (da08r)
 Reserve Grand Champion: Max Davis Family Trophy (da09r)"
-Dairy,Breeding,All Other Dairy Breeds,,c43,,TRUE,"Champion Best Uddered Cow, All Other Dairy Breeds",,dairy,20,,,MMPA Blossomland Local Trophy (da12r)
-Dairy,Breeding,All Other Dairy Breeds,,c44,44,,"Produce of Dam, All Other Dairy Breeds",Two female offspring of cow.,dairy,21,,,
-Dairy,Breeding,All Other Dairy Breeds,,c45,45,,"Daughter with Dam, All Other Dairy Breeds",Cow and Daughter,dairy,22,,,
-Dairy,Breeding,All Other Dairy Breeds,,c46,,,"Best Three Females, All Other Dairy Breeds","Any combination of cows and/or heifers, owned by one exhibitor family.",dairy,23,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c50,50,,"Junior Heifer Calf, Holsteins",,dairy,24,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c51,51,,"Intermediate Calf, Holsteins",,dairy,25,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c52,52,,"Senior Heifer Calf, Holsteins",,dairy,26,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c53,53,,"Summer Yearling Calf, Holsteins",,dairy,27,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c54,54,,"Junior Yearling Calf, Holsteins",,dairy,28,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c55,55,,"Winter Yearling Calf, Holsteins",,dairy,29,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c56,56,,"Senior Yearling Heifer, Holsteins",,dairy,30,,,
-Dairy,Breeding,Holsteins,Junior Heifers,c57,,TRUE,"Junior Champion Female, Holsteins",First and second place in 50 through 56 must compete.,dairy,31,,,"Champion: George & Rita Freehling Trophy (da06a)
+Dairy,Breeding,All Other Dairy Breeds,,c43,,TRUE,,"Champion Best Uddered Cow, All Other Dairy Breeds",,dairy,20,,,MMPA Blossomland Local Trophy (da12r)
+Dairy,Breeding,All Other Dairy Breeds,,c44,44,,,"Produce of Dam, All Other Dairy Breeds",Two female offspring of cow.,dairy,21,,,
+Dairy,Breeding,All Other Dairy Breeds,,c45,45,,,"Daughter with Dam, All Other Dairy Breeds",Cow and Daughter,dairy,22,,,
+Dairy,Breeding,All Other Dairy Breeds,,c46,,,,"Best Three Females, All Other Dairy Breeds","Any combination of cows and/or heifers, owned by one exhibitor family.",dairy,23,,,
+Dairy,Breeding,Holsteins,,c50,50,,c57,"Junior Heifer Calf, Holsteins",,dairy,24,,,
+Dairy,Breeding,Holsteins,,c51,51,,c57,"Intermediate Calf, Holsteins",,dairy,25,,,
+Dairy,Breeding,Holsteins,,c52,52,,c57,"Senior Heifer Calf, Holsteins",,dairy,26,,,
+Dairy,Breeding,Holsteins,,c53,53,,c57,"Summer Yearling Calf, Holsteins",,dairy,27,,,
+Dairy,Breeding,Holsteins,,c54,54,,c57,"Junior Yearling Calf, Holsteins",,dairy,28,,,
+Dairy,Breeding,Holsteins,,c55,55,,c57,"Winter Yearling Calf, Holsteins",,dairy,29,,,
+Dairy,Breeding,Holsteins,,c56,56,,c57,"Senior Yearling Heifer, Holsteins",,dairy,30,,,
+Dairy,Breeding,Holsteins,,c57,,TRUE,c71,"Junior Champion Female, Holsteins",First and second place in 50 through 56 must compete.,dairy,31,,,"Champion: George & Rita Freehling Trophy (da06a)
 Reserve Champion: Bob & Carol Sonnenberg’s Sunnybrook Farm Trophy (da21r)"
-Dairy,Breeding,Holsteins,Senior Heifers,c61,61,,"Two Year Old Heifer, In Milk, Holsteins",,dairy,32,,,
-Dairy,Breeding,Holsteins,Senior Heifers,c63,63,,"Three Year Old Heifer, In Milk, Holsteins",,dairy,33,,,
-Dairy,Breeding,Holsteins,Senior Heifers,c65,65,,"Four Year Old Heifer, In Milk, Holsteins",,dairy,34,,,
-Dairy,Breeding,Holsteins,Senior Heifers,c67,67,,"Aged Cow, In Milk, Holsteins",,dairy,35,,,
-Dairy,Breeding,Holsteins,Senior Heifers,c69,,TRUE,"Senior Champion Female, Holsteins",First and second place in 61 through 67 must compete.,dairy,36,,,"Champion: Patrick Freehling Memorial Trophy (da07r)
+Dairy,Breeding,Holsteins,,c61,61,,c69,"Two Year Old Heifer, In Milk, Holsteins",,dairy,32,,,
+Dairy,Breeding,Holsteins,,c63,63,,c69,"Three Year Old Heifer, In Milk, Holsteins",,dairy,33,,,
+Dairy,Breeding,Holsteins,,c65,65,,c69,"Four Year Old Heifer, In Milk, Holsteins",,dairy,34,,,
+Dairy,Breeding,Holsteins,,c67,67,,c69,"Aged Cow, In Milk, Holsteins",,dairy,35,,,
+Dairy,Breeding,Holsteins,,c69,,TRUE,c71,"Senior Champion Female, Holsteins",First and second place in 61 through 67 must compete.,dairy,36,,,"Champion: Patrick Freehling Memorial Trophy (da07r)
 Reserve Champion: Heritage Family Farms Trophy (da22r)"
-Dairy,Breeding,Holsteins,,c71,,TRUE,Grand Champion Holstein,Winners of Junior and Senior Championship classes must compete.,dairy,37,,,"Champion: August Totzke Memorial Trophy (da03r)
+Dairy,Breeding,Holsteins,,c71,,TRUE,c77,Grand Champion Holstein,Winners of Junior and Senior Championship classes must compete.,dairy,37,,,"Champion: August Totzke Memorial Trophy (da03r)
 Reserve Champion: Gerald (Bud) Totzke Family Trophy (da04r)"
-Dairy,Breeding,Holsteins,,c73,,TRUE,"Champion Best Uddered Cow, Holsteins",,dairy,38,,,Jerry A. Koebel & Sons Farms Trophy (da05c)
-Dairy,Breeding,Holsteins,,c74,,,"Produce of Dam, Holsteins",Two female offspring of cow.,dairy,39,,,
-Dairy,Breeding,Holsteins,,c75,,,"Daughter with Dam, Holsteins",Cow and Daughter,dairy,40,,,
-Dairy,Breeding,Holsteins,,c76,,,"Best Three Females, Holsteins","Any combination of cows and/or heifers, owned by one exhibitor family.",dairy,41,,,
-Dairy,Breeding,Grand Champion Dairy Animal,,c77,,TRUE,Grand Champion Dairy Animal,Winners of Grand Champion Other Breeds and Grand Champion Holstein classes must compete.,dairy,42,,,"Champion: Totzke Farms Trophy (da01r)
+Dairy,Breeding,Holsteins,,c73,,TRUE,,"Champion Best Uddered Cow, Holsteins",,dairy,38,,,Jerry A. Koebel & Sons Farms Trophy (da05c)
+Dairy,Breeding,Holsteins,,c74,,,,"Produce of Dam, Holsteins",Two female offspring of cow.,dairy,39,,,
+Dairy,Breeding,Holsteins,,c75,,,,"Daughter with Dam, Holsteins",Cow and Daughter,dairy,40,,,
+Dairy,Breeding,Holsteins,,c76,,,,"Best Three Females, Holsteins","Any combination of cows and/or heifers, owned by one exhibitor family.",dairy,41,,,
+Dairy,Breeding,Grand Champion,,c77,,TRUE,,Grand Champion Dairy Animal,Winners of Grand Champion Other Breeds and Grand Champion Holstein classes must compete.,dairy,42,,,"Champion: Totzke Farms Trophy (da01r)
 Reserve Champion: Mike Zeilke&Elaine Zeilke Foster Trophy (da02c)"

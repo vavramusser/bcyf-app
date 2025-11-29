@@ -41,18 +41,15 @@ export async function initDatabase() {
     console.log('Document directory:', documentDirectory);
     console.log('Target database path:', dbPath);
     
-    // Create SQLite directory
     try {
       await makeDirectoryAsync(dbDir, { intermediates: true });
       console.log('SQLite directory created/verified');
     } catch (error: any) {
-      // Directory might already exist, that's okay
       if (!error.message?.includes('already exists')) {
         throw error;
       }
     }
     
-    // Copy database
     console.log('Copying database to app directory...');
     await copyAsync({
       from: asset.localUri,
@@ -74,53 +71,7 @@ export async function initDatabase() {
   }
 }
 
-export async function getAllClasses(): Promise<FairItem[]> {
-  const database = await initDatabase();
-  
-  if (!database) {
-    console.log('Database not available, using sample data');
-    return getSampleData();
-  }
-  
-  try {
-    const result = await database.getAllAsync<any>(`
-      SELECT 
-        c.class_id as id,
-        c.class_number as classNumber,
-        c.class_title as title,
-        c.department as division,
-        c.class_group as classType,
-        c.program_order as programOrder,
-        s.day,
-        s.location,
-        s.session_start_time as sessionStartTime,
-        s.session_end_time as sessionEndTime
-      FROM classes c
-      LEFT JOIN sessions s ON c.session_id = s.session_id
-      WHERE s.day IS NOT NULL
-      ORDER BY c.program_order
-    `);
-
-    console.log(`Loaded ${result.length} classes from database`);
-
-    return result.map(row => ({
-      id: row.id,
-      kind: 'Class' as const,
-      title: row.title,
-      day: row.day as DayName,
-      division: row.division,
-      location: row.location,
-      classNumber: row.classNumber || undefined,
-      classType: row.classType || undefined,
-      order: row.programOrder || undefined,
-      time: estimateClassTime(row.sessionStartTime, row.programOrder),
-    }));
-  } catch (error) {
-    console.error('Error querying database:', error);
-    return getSampleData();
-  }
-}
-
+// Estimate time for a class based on session start and its order
 function estimateClassTime(sessionStart: string, order: number | null): string | undefined {
   if (!sessionStart || !order) return sessionStart || undefined;
   
@@ -148,6 +99,158 @@ function estimateClassTime(sessionStart: string, order: number | null): string |
   return `~${displayHours}:${displayMinutes} ${displayAmPm}`;
 }
 
+export async function getAllClasses(): Promise<FairItem[]> {
+  const database = await initDatabase();
+  
+  if (!database) {
+    console.log('Database not available, using sample data');
+    return getSampleData();
+  }
+  
+  try {
+    const allItems: FairItem[] = [];
+
+    // Load exhibitor classes
+    const classes = await database.getAllAsync<any>(`
+      SELECT 
+        c.class_id as id,
+        c.class_number as classNumber,
+        c.class_title as title,
+        c.department as division,
+        c.class_group as classGroup,
+        c.class_subgroup as classSubgroup,
+        c.class_subsubgroup as classSubsubgroup,
+        c.program_order as programOrder,
+        c.session_id as sessionId,
+        s.day,
+        s.location,
+        s.session_start_time as sessionStartTime,
+        s.session_end_time as sessionEndTime
+      FROM classes c
+      LEFT JOIN sessions s ON c.session_id = s.session_id
+      WHERE s.day IS NOT NULL
+      ORDER BY c.program_order
+    `);
+
+    classes.forEach(row => {
+      allItems.push({
+        id: row.id,
+        kind: 'Class' as const,
+        title: row.title,
+        day: row.day as DayName,
+        division: row.division,
+        location: row.location,
+        classNumber: row.classNumber || undefined,
+        classGroup: row.classGroup || undefined,
+        classSubgroup: row.classSubgroup || undefined,
+        classSubsubgroup: row.classSubsubgroup || undefined,
+        order: row.programOrder || undefined,
+        time: estimateClassTime(row.sessionStartTime, row.programOrder),
+        sessionId: row.sessionId,
+      } as any);
+    });
+
+    // Load division events
+    const divisionEvents = await database.getAllAsync<any>(`
+      SELECT 
+        event_id as id,
+        departments,
+        event_type as eventType,
+        day,
+        location,
+        event_start as eventStart,
+        event_title as title,
+        event_description as description
+      FROM division_events
+    `);
+
+    divisionEvents.forEach(row => {
+      // Keep departments as semicolon-separated string
+      allItems.push({
+        id: `div_event_${row.id}`,
+        kind: 'Event' as const,
+        title: row.title,
+        day: row.day as DayName,
+        divisions: row.departments, // Store all divisions together
+        location: row.location,
+        time: row.eventStart,
+        eventType: row.eventType,
+        description: row.description,
+      } as any);
+    });
+
+    // Load exhibitor reminders
+    const reminders = await database.getAllAsync<any>(`
+      SELECT 
+        reminder_id as id,
+        department as division,
+        day,
+        location,
+        event_start as eventStart,
+        event_title as title,
+        event_description as description
+      FROM exhibitor_reminders
+    `);
+
+    reminders.forEach(row => {
+      allItems.push({
+        id: `reminder_${row.id}`,
+        kind: 'Reminder' as const,
+        title: row.title,
+        day: row.day as DayName,
+        division: row.division,
+        location: row.location || 'TBD',
+        time: row.eventStart,
+        description: row.description,
+      } as any);
+    });
+
+    console.log(`Loaded ${classes.length} classes, ${divisionEvents.length} division events, ${reminders.length} reminders`);
+
+    return allItems;
+  } catch (error) {
+    console.error('Error querying database:', error);
+    return getSampleData();
+  }
+}
+
+export async function getSessionInfo(sessionId: string): Promise<{
+  sessionName: string;
+  sessionStartTime: string;
+  totalClasses: number;
+} | null> {
+  const database = await initDatabase();
+  
+  if (!database) {
+    return null;
+  }
+  
+  try {
+    const session = await database.getFirstAsync<any>(`
+      SELECT session_name, session_start_time
+      FROM sessions
+      WHERE session_id = ?
+    `, [sessionId]);
+    
+    const countResult = await database.getFirstAsync<{ total: number }>(`
+      SELECT COUNT(*) as total
+      FROM classes
+      WHERE session_id = ?
+    `, [sessionId]);
+    
+    if (!session) return null;
+    
+    return {
+      sessionName: session.session_name,
+      sessionStartTime: session.session_start_time,
+      totalClasses: countResult?.total || 0,
+    };
+  } catch (error) {
+    console.error('Error getting session info:', error);
+    return null;
+  }
+}
+
 function getSampleData(): FairItem[] {
   return [
     {
@@ -158,21 +261,8 @@ function getSampleData(): FairItem[] {
       division: "Swine",
       location: "Show Arena",
       classNumber: 301,
-      classType: "Market",
       order: 1,
       time: "8:30 AM"
-    },
-    {
-      id: "2",
-      kind: "Class",
-      title: "Senior Division Sheep Showmanship",
-      day: "Monday",
-      division: "Sheep",
-      location: "Show Arena",
-      classNumber: 215,
-      classType: "Showmanship",
-      order: 1,
-      time: "4:00 PM"
     },
   ];
 }
